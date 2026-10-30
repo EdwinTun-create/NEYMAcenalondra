@@ -1,0 +1,34 @@
+*{ box-sizing:border-box; font-family:'Segoe UI',sans-serif;
+}
+
+    body {
+  background-image: url('imagen.PNG');
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+margin:0; min-height:100vh; display:flex; justify-content:center; align-items:center; padding:110px;
+}
+
+h1{ font-size:40px; margin-top: 20; color:#f01414;
+}
+
+.mensaje{ font-size:30px; margin-top: 20; color:#1a099a;
+}
+
+.botones{ margin-top:280px;
+
+}
+
+.btn{ width:100%; padding:16px; margin:10px 0; border:0; border-radius:20px;font-size:40px; cursor:pointer; transition:.3s;
+
+}
+
+.btn:hover{ transform:scale(2.05);
+}
+
+.tarda{color:rgb(186, 58, 58);
+}
+
